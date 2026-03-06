@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "11ed222c-7d82-424d-b0a5-f39b9538aef8",
+      "name": "Manav Mangonda",
+      "email": "manavmangonda@gmail.com",
+      "passwordHash": "$2a$10$MMjebHlpTaYZWqDjIoSF9.hjolQtIarjpo7xOaM5JeWx0MstYSNj2"
+    }
+  ],
+  "tasksByUserId": {
+    "11ed222c-7d82-424d-b0a5-f39b9538aef8": [
+      {
+        "id": "505703ae-3f51-4cc1-ac0a-28fef09dd0ae",
+        "userId": "11ed222c-7d82-424d-b0a5-f39b9538aef8",
+        "title": "Test Task Management Features",
+        "description": "Check create, update, delete, and status change functionality in the task tracker.",
+        "status": "completed",
+        "createdAt": "2026-03-06T07:49:55.361Z",
+        "updatedAt": "2026-03-06T07:49:55.361Z"
+      },
+      {
+        "id": "d67a7489-5e36-45ab-a396-2bfdc5b3241c",
+        "userId": "11ed222c-7d82-424d-b0a5-f39b9538aef8",
+        "title": "Update User Profile Page",
+        "description": "Improve the UI of the user profile page and ensure all fields update correctly.",
+        "status": "pending",
+        "createdAt": "2026-03-06T07:49:39.989Z",
+        "updatedAt": "2026-03-06T07:49:39.989Z"
+      },
+      {
+        "id": "ea7eb096-07f1-43e1-bf4a-8d74afb639b1",
+        "userId": "11ed222c-7d82-424d-b0a5-f39b9538aef8",
+        "title": "Fix Login Page Bug",
+        "description": "Resolve the authentication error occurring when users try to log in with valid credentials.",
+        "status": "completed",
+        "createdAt": "2026-03-06T07:49:15.231Z",
+        "updatedAt": "2026-03-06T07:49:15.231Z"
+      },
+      {
+        "id": "cd91bcd9-ddea-49d5-9dbf-b9b5d9e40254",
+        "userId": "11ed222c-7d82-424d-b0a5-f39b9538aef8",
+        "title": "Finish Sprint Report",
+        "description": "Complete the UI fixes and submit the sprint report to the team lead before the deadline.",
+        "status": "pending",
+        "createdAt": "2026-03-06T07:48:52.088Z",
+        "updatedAt": "2026-03-06T07:48:52.088Z"
+      }
+    ]
+  }
+}
